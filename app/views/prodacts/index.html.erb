@@ -1,0 +1,211 @@
+<header>
+  <div class="contents">
+  <div class="contents__top">
+    <div class="contents__top-logo">
+      <%= link_to "" do %>
+        <%= image_tag "logo.png" %>
+      <% end %>
+    </div>
+    <form>
+      <input type="text" name="NAME" placeholder="何かお探しですか？">
+      <i class="fa fa-search"></i>
+    </form>
+  </div>
+  <div class="contents__bottom">
+    <div class="contents__bottom-links">
+      <ul class="dropdown">
+        <li class="dropdown__hover">
+          <i class="fa fa-list"><p>カテゴリーから探す</p></i>
+          <ul class="dropdown__hover-ul">
+            <li class="dropdown__category">
+              レディース
+              <ul class="dropdown__category-ul">
+                <li class="doropdown__items">
+                  トップス
+                  <ul class="dropdown__items-ul">
+                    <li class="doropdown__items-ul-li">Tシャツ/カットソー（半袖/袖なし）</li>
+                    <li>Tシャツ/カットソー（七分/長袖）</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </li>
+                <li>ジャケット/アウター</li>
+                <li>パンツ</li>
+                <li>スカート</li>
+                <li>ワンピース</li>
+                <li>靴</li>
+                <li>ルームウェア</li>
+                <li>帽子</li>
+                <li>バッグ</li>
+                <li>アクセサリー</li>
+                <li>ヘアアクセサリー</li>
+                <li>小物</li>
+                <li>時計</li>
+              </ul>
+            </li>
+            <li>メンズ</li>
+            <li>ベビー・キッズ</li>
+            <li>インテリア・住まい・小物</li>
+            <li>本・音楽・ゲーム</li>
+            <li>おもちゃ・ホビー・グッズ</li>
+            <li>コスメ・香水・美容</li>
+            <li>家電・スマホ・カメラ</li>
+            <li>スポーツ・レジャー</li>
+            <li>ハンドメイド</li>
+            <li>チケット</li>
+            <li>自動車・オートバイ</li>
+            <li>その他</li>
+            <li>カテゴリ一覧</li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="dropdown">
+        <li class="dropdown__hover">
+          <i class="fa fa-tag"><p>ブランドから探す</p></i>
+          <ul class="dropdown__hover-ul">
+            <li>シャネル</li>
+            <li>ナイキ</li>
+            <li>ルイヴィトン</li>
+            <li>シュプリーム</li>
+            <li>アディダス</li>
+            <li>ブランド一覧</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="contents__bottom-signs">
+      <%= link_to "", class:"contents__bottom-signs-up" do %>
+        新規会委員登録
+      <% end %>
+      <%= link_to "", class: "contents__bottom-signs-in" do %>
+        ログイン
+      <% end %>
+    </div>
+  </div>
+</header>
+
+<div class="slider">
+  <ul class="slider__wrapper">
+      <li class="slider__wrapper-first">
+        <div class="slider__wrapper-first-content">
+      </li>
+      <li class="slider__wrapper-second">
+      </li>
+  </ul>
+</div>
+
+<div class="favorite-category">
+  <h2>人気のカテゴリー</h2>
+  <div class="favorite-category__list">
+    <ul>
+      <li>レディース</li>
+      <li>メンズ</li>
+      <li>家電・スマホ・カメラ</li>
+      <li>おもちゃ・ホビー・グッズ</li>
+    </ul>
+  </div>
+</div>
+
+<div class="main">
+  <div class="prodacuts">
+    <div class="prodacuts__category">
+      <h2>新着アイテム</h2>
+      <%= link_to "" do %>
+        もっと見る
+        <i class="fa fa-chevron-right"></i>
+      <% end %>
+    </div>
+    <div class="prodacuts__cards">
+      <ul class="prodacuts__cards-block">
+        <li class="prodacuts__cards-item">
+          <%= link_to "", class: "prodacuts__cards-link" do%>
+            <div class="prodacuts__cards-content">
+              <%= image_tag "image.jpg" %>
+              <p>testitemttttttttttttttttttttt</p>
+            </div>
+          <% end %>
+        </li>
+        <li class="prodacuts__cards-item">
+          <%= link_to "", class: "prodacuts__cards-link" do%>
+            <div class="prodacuts__cards-content">
+              <%= image_tag "image.jpg" %>
+              <p>testitemttttttttttttttttttttt</p>
+            </div>
+          <% end %>
+        </li>
+        <li class="prodacuts__cards-item">
+          <%= link_to "", class: "prodacuts__cards-link" do%>
+            <div class="prodacuts__cards-content">
+              <%= image_tag "image.jpg" %>
+              <p>testitemttttttttttttttttttttt</p>
+            </div>
+          <% end %>
+        </li>
+        <li class="prodacuts__cards-item">
+          <%= link_to "", class: "prodacuts__cards-link" do%>
+            <div class="prodacuts__cards-content">
+              <%= image_tag "image.jpg" %>
+              <p>testitemttttttttttttttttttttt</p>
+            </div>
+          <% end %>
+        </li>
+        <li class="prodacuts__cards-item">
+          <%= link_to "", class: "prodacuts__cards-link" do%>
+            <div class="prodacuts__cards-content">
+              <%= image_tag "image.jpg" %>
+              <p>testitemttttttttttttttttttttt</p>
+            </div>
+          <% end %>
+        </li>
+        <li class="prodacuts__cards-item">
+          <%= link_to "", class: "prodacuts__cards-link" do%>
+            <div class="prodacuts__cards-content">
+              <%= image_tag "image.jpg" %>
+              <p>testitemttttttttttttttttttttt</p>
+            </div>
+          <% end %>
+        </li>
+        <li class="prodacuts__cards-item">
+          <%= link_to "", class: "prodacuts__cards-link" do%>
+            <div class="prodacuts__cards-content">
+              <%= image_tag "image.jpg" %>
+              <p>testitemttttttttttttttttttttt</p>
+            </div>
+          <% end %>
+        </li>
+        <li class="prodacuts__cards-item">
+          <%= link_to "", class: "prodacuts__cards-link" do%>
+            <div class="prodacuts__cards-content">
+              <%= image_tag "image.jpg" %>
+              <p>testitemttttttttttttttttttttt</p>
+            </div>
+          <% end %>
+        </li>
+        <li class="prodacuts__cards-item">
+          <%= link_to "", class: "prodacuts__cards-link" do%>
+            <div class="prodacuts__cards-content">
+              <%= image_tag "image.jpg" %>
+              <p>testitemttttttttttttttttttttt</p>
+            </div>
+          <% end %>
+        </li>
+        <li class="prodacuts__cards-item">
+          <%= link_to "", class: "prodacuts__cards-link" do%>
+            <div class="prodacuts__cards-content">
+              <%= image_tag "image.jpg" %>
+              <p>testitemttttttttttttttttttttt</p>
+            </div>
+          <% end %>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
