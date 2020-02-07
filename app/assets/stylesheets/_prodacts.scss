@@ -161,6 +161,11 @@ header {
 
 .slider{
   height: 390px;
+  left: 50%;
+  margin-left: -50vw;
+  position: relative;
+  top: 0px;
+  width: 100vw;
   &__wrapper{
     height: 100%;
     &-first{
@@ -169,6 +174,37 @@ header {
     }
   }
 }
+
+.slider__wrapper-first{
+  position: relative;
+  background-image: image();
+}
+
+.slider__wrapper-first p {
+  position: absolute;
+  color: black;
+  top: 0;
+  left: 0;
+  padding: 50px 60px;
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-bottom: 16px;
+}
+
+.slider__wrapper-first-content{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 31%;
+  height: 31%;
+}
+
+
+.slider__wrapper-first img,.slider__wrapper-second img{
+  width: 100%;
+}
+
 
 .favorite-category{
   height: 171px;

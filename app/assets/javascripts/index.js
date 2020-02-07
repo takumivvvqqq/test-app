@@ -26,7 +26,7 @@ $(function(){
 });
 
 $(function() {
-  $('.slider__wrapper').slick({
+  $('.slider').slick({
       dots: true,
       autoplay: true,
       autoplaySpeed: 4000,
