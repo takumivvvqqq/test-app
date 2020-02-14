@@ -160,7 +160,7 @@ header {
 }
 
 .slider{
-  height: 390px;
+  height: 400px;
   left: 50%;
   margin-left: -50vw;
   position: relative;
@@ -185,11 +185,26 @@ header {
   color: black;
   top: 0;
   left: 0;
+  height: 100%;
   padding: 50px 60px;
   font-size: 50px;
   font-weight: 600;
-  margin-left: 40px;
+  margin-left: 200px;
   margin-bottom: 16px;
+}
+
+.slider__wrapper-first-p2 p{
+  position: absolute;
+  color: black;
+  top: 170px;
+  right: 650px;
+  height: 100%;
+  padding: 30px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 5px;
+  margin-bottom: 16px;
+  line-height: 1.77777;
 }
 
 .slider__wrapper-first-content{
@@ -202,9 +217,10 @@ header {
 
 .slider__wrapper-first-content_bannar{
   position: absolute;
-  top: 200px;
-  right: 650px;
-  width: 60%;
+  top: 220px;
+  right: 800px;
+  height: 10px;
+  width: 200px;
   padding: 5px;
   margin: 40px 40px;
   background-color: rgba(255, 255, 255, 0.4);
@@ -213,9 +229,9 @@ header {
 
 .slider__wrapper-first-content_bannar2{
   position: absolute;
-  top: 200px;
-  right: 350px;
-  width: 60%;
+  top: 220px;
+  right: 600px;
+  width: 200px;
   padding: 5px;
   margin: 40px 40px;
   background-color: rgba(255, 255, 255, 0.4);
